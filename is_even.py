@@ -199,6 +199,6 @@ def decider(number):
     while True:
         j -= 2
         if j == 0 or number == 0:
-            return "Even"
+            return True
         elif j == 1:
-            return "Odd"
+            return False
